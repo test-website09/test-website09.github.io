@@ -1,0 +1,391 @@
+/* Barre de navigation */
+nav{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding: 20px; 
+    background-color: aquamarine; 
+    position: sticky;
+    top: 0; 
+}
+nav h1{
+    font-size: 20px; 
+
+}
+nav .onglets{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav .onglets p{
+    font-size: 17px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+nav .onglets input{
+    margin: 8px 20px; 
+    padding: 15px;
+    border-radius: 30px;
+    border:none;  
+    outline: none; 
+    background-color: #f2f2f2; 
+}
+/* Fin de la barre de navigation */ 
+
+/* Header */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+head h1{
+    font-size: 50px;
+    max-width: 500px; 
+    text-align: center; 
+}
+header button{ 
+    padding: 15px 20px;
+    font-size: 20px; 
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer; 
+}
+/* Fin du Header */
+
+/* Section principal */
+.main{
+    margin: 20px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.cards{
+    display: flex;
+    flex-wrap:wrap; 
+}
+
+.cards .card{
+    margin-right: 20px; 
+    cursor: pointer; 
+}
+.cards .card img{
+    width: 600px; 
+}
+.cards .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+.onglets{
+    justify-content: space-between; 
+}
+/* fin Section principal */
+.button{
+    list-style-type: none; 
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px; 
+    background-color: darkcyan; 
+    position: absolute; 
+    right: 330px; 
+}
+.button2{ 
+    list-style-type: none; 
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px; 
+    background-color: darkcyan; 
+    position: absolute; 
+    right: 190px; 
+}
+.button3{ 
+    list-style-type: none; 
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px; 
+    background-color: darkcyan; 
+    position: absolute; 
+    right: 100px; 
+}
+a{
+    color: black;  
+    text-decoration: none;
+    font-size: 22px;
+}
+
+fab fa-discord{
+    font-size: 50px;
+}
+body{ 
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px; 
+    padding: 0px; 
+    flex-wrap: wrap; 
+} 
+.image1 img{
+    position: absolute; 
+    width: 470px;
+    left: 200px; 
+    top: 260px;  
+}
+.image2 img{
+    position: absolute;
+    width: 692px; 
+    left: 900px;  
+    top: 260px; 
+}
+.buttondiscord{
+    position: absolute; 
+    background-color: #ff6a19; 
+    border: none;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 2rem; 
+    left: 339px;  
+    top: 600px;  
+}
+.buttonhtml{
+    position: absolute; 
+    background-color: #ff6a19; 
+    border: none;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 2rem; 
+    left: 339px;  
+    top: 600px; 
+    left: 1160px; 
+}
+.gif{ 
+    display: flex; 
+    position: absolute;
+    right: 100px;  
+    flex-wrap: wrap; 
+}
+.oi{
+    display: flex; 
+    position: absolute; 
+    top: 500px; 
+    font-size: 80px;
+    height: 270px;
+    margin: 0px; 
+    right: 30px;
+    top: 370px;
+}
+.discord1 img{
+    display: flex;
+    position: absolute;
+    height: 250px; 
+    margin: 0px;
+    border: none; 
+    left: 200px;
+    top: 250px;
+}
+.discord2 img{
+    display: flex;
+    position: absolute;
+    height: 250px; 
+    margin: 0px;
+    border: none; 
+    left: 800px;
+    top: 250px;
+}
+.discord3 img{
+    display: flex;
+    position: absolute;
+    height: 250px; 
+    margin: 0px;
+    border: none; 
+    left: 1470px;
+    top: 250px; 
+}
+.buttontarifs1{
+    position: absolute; 
+    background-color: #ff6a19; 
+    border: none;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 2rem; 
+    left: 339px;  
+    top: 560px; 
+    left: 280px;
+}
+.body1{ 
+    background: #000;
+    width: 1900px;
+    position: absolute;
+    display: flex;  
+    height: 1255px; 
+}
+.container{
+    text-align: center;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.container span{
+    text-transform: uppercase; 
+    display: block; 
+}
+.textt{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    background: black;
+    position: relative; 
+    animation: text 3s 1;
+}
+.texttt{
+    font-size: "30px";
+    color: #6ab04c; 
+}
+
+
+@keyframes text{
+    0%{
+        color: black;
+        margin-bottom: -40px; 
+    }
+    30%{
+        letter-spacing: 25px; 
+        margin-bottom: -40px; 
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px; 
+    }
+}
+.anim { 
+    display: flex;
+    position: absolute; 
+    width: 200px;
+    height: 60px;
+    font-size: 1.3rem;
+    font-family: arial, sans-serif;
+    font-weight: 700;
+    position: relative; 
+    z-index: 0;
+    border: 1px solid #892cdc;
+    background: black;
+    overflow: hidden;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 730px;
+    left: 850px; 
+}  
+.anim::before {
+    content: '';
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #892cdc;
+    border-radius: 50% 50% 0% 0%;
+    z-index: -1;
+    transition: all .5s;
+}
+.anim:hover::before { 
+    top: 0px;
+    border-radius: 0;
+} 
+.anim a{ 
+    color: white; 
+}
+
+.text1 b{
+    display: flex;
+    position: absolute;
+    color: rgb(109, 3, 3);
+    top: 520px;
+    font-size: 20px; 
+    left: 220px;
+}
+B{
+    display: flex;
+    position: absolute;
+    top: 630px;
+    font-size: 20px; 
+    left: 305px; 
+}
+.buttontarifs2{
+    position: absolute; 
+    background-color: #ff6a19; 
+    border: none;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 2rem; 
+    left: 339px;  
+    top: 560px; 
+    left: 885px;
+}
+.text2 b{
+    display: flex;
+    position: absolute;
+    color: rgb(109, 3, 3);
+    top: 520px;
+    font-size: 20px; 
+    left: 790px;
+}
+.b1 b{
+    display: flex;
+    position: absolute;
+    top: 630px;
+    font-size: 20px; 
+    left: 910px; 
+} 
+.text3 b{
+    display: flex;
+    position: absolute;
+    top: 520px;
+    left: 1455px;
+    color: rgb(109, 3, 3); 
+}
+.buttontarifs3{
+    position: absolute; 
+    background-color: #ff6a19; 
+    border: none;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 2rem; 
+    left: 339px;  
+    top: 560px; 
+    left: 1560px;
+}
+.b2 b{
+    display: flex;
+    position: absolute;
+    top: 630px;
+    font-size: 20px; 
+    left: 1585px; 
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap') 
+
